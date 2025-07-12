@@ -14,3 +14,10 @@
       <p>Текст</p>
   </li>
 */
+
+import { refs } from './js/refs'
+import { onHeaderFormSubmit } from "./js/handlers";
+
+refs.headerForm.addEventListener('submit', onHeaderFormSubmit);
+
+
